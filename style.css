@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    background-color: #f9f9f9;
+    color: hsl(228, 28%, 20%);
+}
+
+.container{
+    margin: 20px;
+}
+
+.skill-item, .interest{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+h4{
+    background-color: hsl(228, 28%, 20%);
+    color: #f9f9f9;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.contact{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+p{
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.education{
+    padding: 10px;
+    border-bottom: hsl(228, 28%, 20%) 4px solid ;
+}
+
+.edu{
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.experience{
+    margin-top: 10px;
+    padding-top:10px ;
+}
+.skills{
+    text-align: center;
+    border-bottom: hsl(228, 28%, 20%) 2px solid ;
+    padding: 10px;
+    font-size: 40px;
+}
